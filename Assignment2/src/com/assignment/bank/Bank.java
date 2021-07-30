@@ -11,7 +11,7 @@ public class Bank {
 		if (withdraw <= balance) {
 			balance = balance - withdraw;
 		} else {
-			System.out.println("Withdraw operation not done,Please check your balance");
+			System.out.println("Withdraw operation not done, Please check your balance");
 		}
 	}
 
